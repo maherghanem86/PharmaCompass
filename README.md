@@ -26,24 +26,43 @@ Semantic Inference: Populated OWL File $\rightarrow$ HermiT Reasoner DL Executio
 
 Clinical Matching: Execution of Trial Rules $\rightarrow$ Verified Cohort Identification.
 
+
+
 📂 Repository Structure
 
-PharmaCompass/
-├── data/
-│   ├── gold_standard_input.csv              # Ground-truth verification samples
-│   └── my_model_predictions_improved.csv    # Extracted clinical metadata in JSON format
-├── notebooks/
-│   ├── Training_Code.ipynb                  # Llama-2-7B Peft/QLoRA fine-tuning script
-│   ├── Ontology_Population.ipynb            # Dynamic OWL population pipeline
-│   ├── Full_Automation_Reasoning_Matching.ipynb # HermiT reasoning engine runner
-│   ├── Evaluation_and_Plotting.ipynb        # Statistical grading & graph generation
-│   └── PharmaCompass_Final_Prototype.ipynb  # Interactive Gradio dashboard code
-├── images/
-│   ├── metrics_heatmap.png                  # Precision-Recall breakdown matrix
-│   ├── performance_bar_chart.png            # Overall macro-metric evaluation 
-│   └── radar_chart.png                      # Multi-category feature performance comparison
-├── requirements.txt                         # Python dependencies
-└── README.md                                # Project documentation
+data/
+
+gold_standard_input.csv (Ground-truth verification samples)
+
+my_model_predictions_improved.csv (Extracted clinical metadata in JSON format)
+
+PharmaCompass.owl (The core Semantic Knowledge Graph / Ontology)
+
+notebooks/
+
+Training_Code.ipynb (Llama-2-7B Peft/QLoRA fine-tuning script)
+
+Ontology_Population.ipynb (Dynamic OWL population pipeline)
+
+Full_Automation_Reasoning_Matching.ipynb (HermiT reasoning engine runner)
+
+Evaluation_and_Plotting.ipynb (Statistical grading & graph generation)
+
+PharmaCompass_Final_Prototype.ipynb (Interactive Gradio dashboard code)
+
+images/
+
+metrics_heatmap.png (Precision-Recall breakdown matrix)
+
+performance_bar_chart.png (Overall macro-metric evaluation)
+
+radar_chart.png (Multi-category feature performance comparison)
+
+requirements.txt (Python dependencies)
+
+README.md (Project documentation)
+
+
 
 
 📊 Evaluation & Performance
