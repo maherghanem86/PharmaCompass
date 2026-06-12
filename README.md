@@ -108,3 +108,7 @@ The specialized fine-tuned adapter weights for Llama2-7B-MIMIC-iii-Extraction-v1
 📄 License & Ethical Disclaimers
 
 This repository is tailored for educational and academic research evaluation. The datasets utilized for training are derived from the de-identified MIMIC-III database. Accessing or executing the model over actual real-world patient data requires strict adherence to institutional data-use agreements and HIPAA certifications.
+
+
+Model URL :    https://huggingface.co/maherghanem86/PharmaCompass
+Space URL :   https://huggingface.co/spaces/maherghanem86/PharmaCompass
